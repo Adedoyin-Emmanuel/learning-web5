@@ -1,6 +1,5 @@
 import { Web5 } from "@web5/api";
 import { webcrypto } from "node:crypto";
-import { read } from "node:fs";
 
 if (!globalThis.crypto) globalThis.crypto = webcrypto;
 
